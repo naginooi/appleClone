@@ -1,0 +1,19 @@
+.header-box {
+  margin: 0 auto;
+  width: 70%;
+  border: 1px solid red;
+}
+
+.header-nav {
+  padding: 10px 0;
+  font-size: 0.8em;
+  color: #313131;
+}
+.header-nav .logo {
+  font-size: 1.5em;
+}
+.header-nav .nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}/*# sourceMappingURL=header.css.map */
