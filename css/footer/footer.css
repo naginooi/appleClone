@@ -1,0 +1,85 @@
+@charset "UTF-8";
+.footer-box {
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 70%;
+  border-top: 1px solid #d2d2d7;
+  border-bottom: 1px solid #d2d2d7;
+}
+
+.title-box {
+  margin-bottom: 20px;
+}
+.title-box .fa-brands {
+  font-size: 1.2em;
+}
+
+.title {
+  color: var(--default);
+}
+.title::before {
+  content: ">";
+  color: #d2d2d7;
+  margin: 0 10px;
+}
+
+.list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.list .column ul {
+  margin-bottom: 30px;
+}
+.list .column ul span {
+  pointer-events: none;
+  font-weight: 800;
+  color: #1d1d1f;
+}
+.list .column li {
+  margin: 15px 0;
+}
+.list .column li:hover {
+  text-decoration: underline;
+}
+
+.shoppingText {
+  margin-bottom: 10px;
+  color: #6e6e73;
+}
+.shoppingText a {
+  color: #0066cc;
+}
+.shoppingText a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 10px auto 30px auto;
+}
+.footer-bottom ul {
+  display: flex;
+  margin-left: 20px;
+}
+.footer-bottom ul li:not(:last-of-type):hover {
+  text-decoration: underline;
+}
+.footer-bottom ul li:not(:last-of-type)::after {
+  content: "|";
+  margin: 0 5px;
+  color: #d2d2d7;
+}
+.footer-bottom .copy {
+  color: #6e6e73;
+}
+.footer-bottom .country-ko {
+  /* 일부 자식 요소 우측 정렬하기 */
+  margin-left: auto;
+}
+.footer-bottom .country-ko:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=footer.css.map */
