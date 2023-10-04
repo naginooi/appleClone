@@ -1,0 +1,174 @@
+.banner {
+  background-color: #fff;
+  margin-bottom: 80px;
+}
+
+.slide-wrapper {
+  position: relative;
+  width: 770px;
+  height: 5vh;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.slide-box {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.slide-text {
+  width: 770px;
+  height: inherit;
+  float: left;
+  font-size: 0.9em;
+}
+.slide-text sup {
+  font-size: 0.8em;
+}
+.slide-text a {
+  color: #0066cc;
+}
+.slide-text a::after {
+  content: "\f105";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 0.6em;
+  margin-left: 5px;
+}
+
+.prev {
+  position: absolute;
+  width: 30px;
+  left: -60px;
+  font-size: 1.5em;
+}
+.prev::after {
+  content: "\f104";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 0.6em;
+}
+
+.next {
+  position: absolute;
+  width: 30px;
+  right: -60px;
+  font-size: 1.5em;
+}
+.next::after {
+  content: "\f105";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 0.6em;
+}
+
+.shop-container {
+  min-height: 248px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+.row .column-1 {
+  max-width: 640px;
+  font-size: 3em;
+}
+.row .column-1 h1,
+.row .column-1 div {
+  display: inline;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.row .column-1 h1 {
+  color: #000;
+}
+.row .column-2 {
+  padding-top: 12px;
+}
+.row .column-2 .column-2-item-1 {
+  display: flex;
+  margin-bottom: 10px;
+}
+.row .column-2 .column-2-item-2 {
+  display: flex;
+}
+.row .column-2 .column-2-item-2 i {
+  line-height: 35px;
+}
+.row .column-2 .pic-1 img,
+.row .column-2 .pic-2 i {
+  width: 35px;
+  height: 35px;
+  padding-right: 8px;
+  font-size: 1.5em;
+  text-align: center;
+}
+.row .column-2 .desc {
+  font-size: 0.8em;
+}
+.row .column-2 .desc .desc-title {
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.row .column-2 .desc .desc-content a {
+  color: #06c;
+}
+.row .column-2 .desc .desc-content a:hover {
+  text-decoration: underline;
+}
+.row .column-2 .desc .desc-content.two::after {
+  content: "\f105";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 0.6em;
+  margin-left: 5px;
+  color: #06c;
+}
+
+.shop-container {
+  margin-bottom: 60px;
+}
+
+.shop-product {
+  display: flex;
+}
+.shop-product .list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 136px;
+  height: 148px;
+  margin-right: 10px;
+}
+.shop-product .list-item .item-img {
+  width: 120px;
+  margin-bottom: 8px;
+}
+.shop-product .list-item .item-img img {
+  width: 100%;
+}
+.shop-product .list-item .item-text {
+  text-align: center;
+}
+.shop-product .list-item .item-text a {
+  font-weight: 600;
+}
+
+.latest-container {
+  width: 60%;
+  margin: 0 auto;
+}
+.latest-container .latest-title,
+.latest-container .latest-subtitle {
+  display: inline;
+  font-size: 1.8em;
+  font-weight: 600;
+}
+.latest-container .latest-title {
+  color: #000;
+}/*# sourceMappingURL=index.css.map */
